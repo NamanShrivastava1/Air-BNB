@@ -1,0 +1,19 @@
+2025-04-25T16:29:12.031Z error:500 - User unauthorized - POST - /api/property/create - ::1
+2025-04-25T16:30:20.397Z error:500 - User unauthorized - POST - /api/property/create - ::1
+2025-04-25T16:48:25.644Z error:500 - Property not found - GET - /api/property/view/680bb8dcffe591fa93b7bdd2 - ::1
+2025-04-25T16:48:34.930Z error:500 - Property not found - GET - /api/property/view/680bb8dcffe591fa93b7bdd2 - ::1
+2025-04-25T16:48:44.706Z error:500 - Property not found - GET - /api/property/view/680bb8dcffe591fa93b7bdd2 - ::1
+2025-04-25T16:48:51.537Z error:500 - Property deletion failed - DELETE - /api/property/delete/680bb8dcffe591fa93b7bdd2 - ::1
+2025-04-25T16:49:24.492Z error:500 - Property not found - GET - /api/property/view/680bb8dcffe591fa93b7bdd2 - ::1
+2025-04-26T15:32:12.925Z error:500 - CustomError is not defined - POST - /api/booking/create - ::1
+2025-04-26T15:32:54.348Z error:500 - CustomError is not defined - POST - /api/booking/create - ::1
+2025-04-26T15:33:08.383Z error:500 - Booking validation failed: checkIn_date: Path `checkIn_date` is required., checkOut_date: Path `checkOut_date` is required. - POST - /api/booking/create - ::1
+2025-04-26T15:33:43.950Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:34:14.023Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:35:30.293Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:35:58.370Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:38:42.141Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:39:06.789Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T15:40:14.740Z error:500 - error is not defined - POST - /api/booking/create - ::1
+2025-04-26T15:40:56.314Z error:500 -  - POST - /api/booking/create - ::1
+2025-04-26T17:10:19.048Z error:500 - jwt expired - GET - /api/booking/user-bookings/6809f357dc244a09ffcb4b83 - ::1
