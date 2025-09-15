@@ -6,6 +6,7 @@ const cacheClient = require("../services/cache.service.js");
 const { resetPasswordTemplate } = require("../utils/emailTemplate.js");
 const { sendMail } = require("../utils/email.js");
 
+
 const registerController = async (req, res, next) => {
   const { userName, email, mobileNo, address, password } = req.body;
   try {

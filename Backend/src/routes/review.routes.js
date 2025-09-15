@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const authMiddleware = require("../middlewares/auth.middleware");
+const authMiddleware = require("../middlewares/authMiddleware.js");
 const reviewController = require("../controllers/review.controller");
+
 
 router.post("/create", authMiddleware, reviewController.cretaeReviewController);
 router.delete(
